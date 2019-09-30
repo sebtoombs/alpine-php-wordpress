@@ -1,18 +1,12 @@
-##### This image is being maintained. Fork it and change it fit your needs. Upgrade your site using the upgrade strategy on wordpressdocker.com
-
-Full documentation for this project can be found here: http://www.wordpressdocker.com/
-
-We also have a development container: https://github.com/etopian/alpine-php-wordpress-dev
+Based on work by https://github.com/etopian/alpine-php-wordpress
+And: http://www.wordpressdocker.com/
 
 # Lightweight WordPress PHP7 PHP-FPM7 & Nginx Docker Production Image
 
 Lightweight Docker image for the (latest) PHP-FPM and Nginx to run WordPress based on [AlpineLinux](http://alpinelinux.org)
 
 * Image size only ~131MB !
-* Very new packages (alpine:edge) 2016-07-21:
-  * [PHP](http://pkgs.alpinelinux.org/package/main/x86/php) 7.0.13
-  * [Nginx](http://pkgs.alpinelinux.org/package/main/x86/nginx) nginx/1.10.2
-  * Memory usage is around 50mb on a simple install.
+* Memory usage is around 50mb on a simple install.
 
 ## A simple example
 ### Say you want to run a single site on a VPS with Docker

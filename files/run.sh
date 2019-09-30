@@ -4,9 +4,9 @@
 
 chown -R nginx:nginx /DATA
 
-if [ ! -d /DATA/htdocs ] ; then
-  mkdir -p /DATA/htdocs
-#  chown nginx:nginx /DATA/htdocs
+if [ ! -d /DATA/public_html ] ; then
+  mkdir -p /DATA/public_html
+#  chown nginx:nginx /DATA/public_html
 fi
 
 
